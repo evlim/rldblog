@@ -13,6 +13,13 @@ export type BlogPost = {
 
 const blogPosts: BlogPost[] = [
   {
+    title: "Russian TRP Under Decree 702: The Complete Guide",
+    description:
+      "A practical, first-hand guide to the documents, timing, and application steps for a temporary residence permit in Russia.",
+    link: "/blog/russian-trp-decree-702",
+    date: "2026-09-07",
+  },
+  {
     title: "A practical starting point for life in Russia",
     description:
       "The ideas behind Russian Life Decoding and what you can expect from the journal.",

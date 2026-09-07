@@ -17,6 +17,7 @@
   <nav aria-label="Primary navigation">
     <a href="/#about">About</a>
     <a href="/blog">Journal</a>
+    <a href="/tools">Tools</a>
   </nav>
 </header>
 
