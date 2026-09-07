@@ -4,43 +4,35 @@
 
 <svelte:head>
   <title>{blogInfo.name}</title>
-  <meta name="description" content="Our blog posts." />
+  <meta name="description" content={blogInfo.description} />
 </svelte:head>
 
-<div class="py-8 lg:py-12 px-6 max-w-lg mx-auto">
-  <div
-    class="text-3xl lg:text-5xl font-medium text-primary flex gap-3 items-baseline text-center place-content-center"
-  >
-    <div
-      class="text-center leading-relaxed font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent"
-    >
-      {blogInfo.name}
+<div class="blog-index">
+  <div class="blog-heading">
+    <div>
+      <p class="eyebrow">Russian Life Decoding</p>
+      <h1>{blogInfo.name}</h1>
+      <p>{blogInfo.description}</p>
     </div>
     <a href="/blog/rss.xml" target="_blank" rel="noreferrer">
-      <img
-        class="flex-none w-5 h-5 object-contain"
-        src="/images/rss.svg"
-        alt="rss feed"
-      />
+      <span class="rss-link">RSS ↗</span>
     </a>
   </div>
-  <div class="text-lg text-center">A demo blog with sample content.</div>
 
   {#each sortedBlogPosts as post}
-    <a href={post.link}>
-      <div class="card my-6 bg-white shadow-xl flex-row overflow-hidden">
-        <div class="flex-none w-6 md:w-32 bg-secondary"></div>
-        <div class="py-6 px-6">
-          <div class="text-xl">{post.title}</div>
-          <div class="text-sm text-accent">
-            {post.parsedDate?.toLocaleDateString("en-US", {
-              month: "short",
-              day: "numeric",
-              year: "numeric",
-            })}
-          </div>
-          <div class="text-slate-500">{post.description}</div>
+    <a class="blog-card" href={post.link}>
+      <div class="blog-card-accent"></div>
+      <div class="blog-card-content">
+        <div class="post-date">
+          {post.parsedDate?.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          })}
         </div>
+        <h2>{post.title}</h2>
+        <p>{post.description}</p>
+        <span class="read-more">Read article <span>↗</span></span>
       </div>
     </a>
   {/each}

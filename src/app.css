@@ -1,88 +1,442 @@
 @import "tailwindcss";
-
 @plugin '@tailwindcss/typography';
-@plugin "daisyui" {
-  /* Disable all other themes which forces the default theme created below. You can add a dark mode theme using daisyui if you like, and it will automatically use it when the user's system is in dark mode. Docs: https://daisyui.com/docs/themes/ */
-  themes: false;
+
+:root {
+  --ink: #172521;
+  --muted: #64736e;
+  --paper: #f5f7f3;
+  --surface: #ffffff;
+  --line: #d9e1da;
+  --pine: #1d5548;
+  --sage: #dce9df;
+  --ochre: #c58a45;
 }
 
-@plugin "daisyui/theme" {
-  name: "saasstartertheme";
-  default: true; /* set as default */
-  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
-  color-scheme: light; /* color of browser-provided UI */
-
-  --color-primary: #180042;
-  --color-primary-content: #fefbf6;
-  --color-secondary: #c7b9f8;
-  --color-secondary-content: oklch(95% 0 0);
-  --color-accent: #db2777;
-  --color-accent-content: #180042;
-  --color-neutral: #180042;
-  --color-neutral-content: #fefbf6;
-  --color-base-100: #fefbf6;
-  --color-base-200: #faedd6;
-  --color-base-300: oklch(92% 0.04 240);
-  --color-base-content: #180042;
-  --color-info: oklch(70% 0.2 220);
-  --color-info-content: oklch(98% 0.01 220);
-  --color-success: #37d399;
-  --color-success-content: oklch(98% 0.01 140);
-  --color-warning: oklch(80% 0.25 80);
-  --color-warning-content: oklch(20% 0.05 80);
-  --color-error: #f77272;
-  --color-error-content: oklch(98% 0.01 30);
-
-  /* border radius */
-  --radius-selector: 1rem;
-  --radius-field: 0.5rem;
-  --radius-box: 0.5rem;
-
-  /* base sizes */
-  --size-selector: 0.25rem;
-  --size-field: 0.25rem;
-
-  /* border size */
-  --border: 1px;
-
-  /* effects */
-  --depth: 1;
-  --noise: 0;
-}
-
-/*
-  Tailwind CSS v4 Migration:
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
-  ::after,
   ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+  ::after {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  a {
+    cursor: pointer;
   }
 }
 
-a {
-  @apply cursor-pointer;
+.site-header,
+.site-footer {
+  width: min(1180px, calc(100% - 3rem));
+  margin: 0 auto;
 }
 
-/* Hack to temporarily solve https://github.com/supabase/auth-ui/issues/219 */
-.authBtn {
-  @apply btn;
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
 }
-button[disabled].authBtn {
-  font-size: 0.001px;
-  filter: brightness(65%);
+
+.site-header nav {
+  display: flex;
+  gap: 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
 }
-button[disabled].authBtn::before {
-  font-size: 14px;
-  content: "Loading...";
-  color: oklch(var(--pc));
+
+.site-header nav a:hover,
+.text-link:hover {
+  color: var(--pine);
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wordmark-mark {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--pine);
+  color: var(--paper);
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+.hero-shell {
+  width: min(1180px, calc(100% - 3rem));
+  margin: 0 auto;
+  padding: 6rem 0 7rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 22rem;
+  gap: 4rem;
+  align-items: center;
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 1.25rem;
+  color: var(--pine);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.hero-copy h1 {
+  max-width: 700px;
+  margin: 0;
+  font-size: clamp(3.7rem, 8vw, 7.4rem);
+  line-height: 0.94;
+  letter-spacing: -0.06em;
+}
+
+.hero-copy h1 em {
+  color: var(--pine);
+  font-style: normal;
+}
+
+.hero-description {
+  max-width: 480px;
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin-top: 2.25rem;
+}
+
+.button {
+  display: inline-flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.9rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.button-primary {
+  background: var(--pine);
+  color: white;
+}
+
+.button-primary:hover {
+  background: var(--ink);
+}
+
+.text-link,
+.read-more {
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.text-link span,
+.read-more span {
+  color: var(--ochre);
+}
+
+.hero-mark {
+  position: relative;
+  display: grid;
+  width: 20rem;
+  height: 20rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--sage);
+}
+
+.mark-ring {
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  border: 1px solid var(--pine);
+  border-radius: 50%;
+}
+
+.mark-label {
+  position: relative;
+  color: var(--pine);
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.mark-label span {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+}
+
+.intro-section,
+.topics-section,
+.latest-section,
+.blog-index {
+  width: min(1000px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  padding: 7rem 0;
+}
+
+.intro-content h2 {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 4.3rem);
+  letter-spacing: -0.04em;
+}
+
+.intro-content p {
+  max-width: 600px;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.topics-section,
+.latest-section {
+  padding-bottom: 7rem;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+}
+
+.topic-grid,
+.latest-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.topic-card,
+.latest-card {
+  background: var(--surface);
+  padding: 1.75rem;
+}
+
+.topic-card {
+  min-height: 12rem;
+}
+
+.topic-number,
+.post-date {
+  color: var(--ochre);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.topic-card h3,
+.latest-card h3 {
+  margin: 2.5rem 0 0.75rem;
+  font-size: 1.55rem;
+}
+
+.topic-card p,
+.latest-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.latest-card {
+  display: flex;
+  min-height: 17rem;
+  flex-direction: column;
+}
+
+.latest-card h3 {
+  margin-top: 1.5rem;
+}
+
+.latest-card .read-more {
+  margin-top: auto;
+  padding-top: 2rem;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.footer-year {
+  margin-left: auto;
+}
+
+.blog-index {
+  padding: 5rem 0 7rem;
+}
+
+.blog-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 3rem;
+}
+
+.blog-heading h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  letter-spacing: -0.05em;
+}
+
+.blog-heading p:not(.eyebrow) {
+  margin: 1rem 0 0;
+  color: var(--muted);
+}
+
+.rss-link {
+  color: var(--pine);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: 0.5rem 1fr;
+  margin-top: 1rem;
+  background: var(--surface);
+}
+
+.blog-card-accent {
+  background: var(--pine);
+}
+
+.blog-card:nth-of-type(3n) .blog-card-accent {
+  background: var(--ochre);
+}
+
+.blog-card-content {
+  padding: 2rem 2.25rem;
+}
+
+.blog-card h2 {
+  margin: 0.5rem 0 0.75rem;
+  font-size: 2rem;
+}
+
+.blog-card p {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+}
+
+.prose {
+  --tw-prose-links: var(--pine);
+  max-width: 720px;
+}
+
+@media (max-width: 700px) {
+  .site-header,
+  .site-footer,
+  .hero-shell,
+  .intro-section,
+  .topics-section,
+  .latest-section,
+  .blog-index {
+    width: min(100% - 2rem, 600px);
+  }
+
+  .hero-shell {
+    padding: 4rem 0 5rem;
+  }
+
+  .hero-grid,
+  .intro-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-mark {
+    width: 13rem;
+    height: 13rem;
+    order: -1;
+  }
+
+  .mark-ring {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .mark-label {
+    font-size: 2.5rem;
+  }
+
+  .topic-grid,
+  .latest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-year {
+    margin-left: 0;
+  }
+
+  .blog-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

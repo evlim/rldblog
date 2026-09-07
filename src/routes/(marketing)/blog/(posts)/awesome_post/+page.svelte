@@ -1,26 +1,25 @@
-<p class="lead">A sample post</p>
+<p class="lead">The everyday details are often the most useful ones.</p>
 
 <p>
-  This is a sample blog post to demonstrate the blog engine. It shows some of
-  the formatting options included in the template.
+  Living in a new country means learning a different set of defaults: how people
+  communicate, where to look for information, and which small routines make a
+  day easier. Those details are worth documenting because they rarely appear in
+  a guidebook.
 </p>
 
-<h3>Section Titles are great</h3>
-
-<p>As are more paragraphs.</p>
-
-<blockquote>
-  <p>Block quotes are styled</p>
-</blockquote>
-
-<pre><code class="language-bash"
-    ># Code blocks work too!
-npm install 
-</code></pre>
+<h3>Context makes things simpler</h3>
 
 <p>
-  Check out more formatting options like lists, headers, and more in <a
-    href="https://play.tailwindcss.com/uj1vGACRJA?layout=preview"
-    >the tailwind/typograpy docs</a
-  >.
+  The goal of this journal is not to make broad claims about Russia. It is to
+  share specific observations and practical explanations that can help another
+  foreigner make a confident next step.
+</p>
+
+<blockquote>
+  <p>Good guidance should leave you feeling more capable, not more confused.</p>
+</blockquote>
+
+<p>
+  More notes on everyday life, legal essentials, and useful tools are available
+  in <a href="/blog" class="link">the journal</a>.
 </p>
