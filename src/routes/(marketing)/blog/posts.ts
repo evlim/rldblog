@@ -15,9 +15,9 @@ const blogPosts: BlogPost[] = [
   {
     title: "Russian TRP Under Decree 702: The Complete Guide",
     description:
-      "A practical, first-hand guide to the documents, timing, and application steps for a temporary residence permit in Russia.",
-    link: "/blog/russian-trp-decree-702",
-    date: "2026-09-07",
+      "A walkthrough from an approved applicant covering the required documents and steps for a TRP in Russia under Presidential Decree 702.",
+    link: "/blog/trp-presidential-decree-702-guide",
+    date: "2025-12-18",
   },
   {
     title: "A practical starting point for life in Russia",
