@@ -1,6 +1,6 @@
 export const blogInfo = {
-  name: "SaaS Starter Blog",
-  description: "A sample blog",
+  name: "The Journal",
+  description: "Practical notes on everyday and legal life in Russia.",
 }
 
 export type BlogPost = {
@@ -11,24 +11,25 @@ export type BlogPost = {
   parsedDate?: Date // Optional because it's added dynamically
 }
 
-// Update this list with the actual blog post list
-// Create a page in the "(posts)" directory for each entry
 const blogPosts: BlogPost[] = [
   {
-    title: "How we built a beautiful 41kb SaaS website with this template",
-    description: "How to use this template you to bootstrap your own site.",
+    title: "A practical starting point for life in Russia",
+    description:
+      "The ideas behind Russian Life Decoding and what you can expect from the journal.",
     link: "/blog/how_we_built_our_41kb_saas_website",
     date: "2024-03-10",
   },
   {
-    title: "Example Blog Post 2",
-    description: "Even more example content!",
+    title: "Small details, better context",
+    description:
+      "Why the everyday things are often the most useful things to understand.",
     link: "/blog/awesome_post",
-    date: "2022-9-23",
+    date: "2023-09-23",
   },
   {
-    title: "Example Blog Post",
-    description: "A sample blog post, showing our blog engine",
+    title: "Starting with the basics",
+    description:
+      "A short introduction to finding your way around a new country.",
     link: "/blog/example_blog_post",
     date: "2023-03-13",
   },

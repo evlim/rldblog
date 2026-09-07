@@ -1,36 +1,18 @@
-<p class="lead">How to use this template you to bootstrap your own site.</p>
+<p class="lead">A practical starting point for understanding life in Russia.</p>
 
 <p>
-  We've written a detailed blog post about how we took this template, and
-  created a real <a href="https://criticalmoments.io" target="_blank"
-    >SaaS company website</a
-  >. Topics include:
+  Russian Life Decoding is a growing collection of notes for foreigners living
+  in Russia. It brings together practical context, clear explanations, and
+  useful tools for the questions that come up every day.
 </p>
 
 <ul>
-  <li>Optimizing the stack for performance and developer productivity</li>
-  <li>Creating rich interactive animations with Svelte</li>
-  <li>Creating pixel perfect designs without rasterization</li>
-  <li>Speed measurements: how we kept it small and lightning fast</li>
+  <li>Everyday observations and cultural context</li>
+  <li>Plain-language explainers for legal and administrative topics</li>
+  <li>Small tools that make unfamiliar processes easier</li>
 </ul>
 
-<a
-  href="https://criticalmoments.io/blog/how_we_built_our_marketing_page"
-  target="_blank"
->
-  <button class="btn btn-primary">Read the Blog Post</button>
-</a>
-
 <p>
-  The blog post is over on <a href="https://criticalmoments.io" target="_blank"
-    >criticalmoments.io</a
-  >, a page which uses this boilerplate as a starting point.
-</p>
-
-<p>
-  If you are looking for examples of blog posts with rich content rendered
-  inside this template, checkout the other demo posts <a
-    href="/blog"
-    class="link">here</a
-  >.
+  There is no paywall, account, or complicated dashboard here—just useful
+  information, written to be easy to find and understand.
 </p>
