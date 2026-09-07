@@ -41,15 +41,15 @@
     <h3>Obtain and legalize your criminal record certificate</h3>
     <p>
       Applicants aged 14 and over need a certificate issued by the competent
-      authority in their country. There is no published rule that the record must
-      be clean. The certificate is generally valid for three months, so start
-      this step first and confirm the current validity period with the
+      authority in their country. There is no published rule that the record
+      must be clean. The certificate is generally valid for three months, so
+      start this step first and confirm the current validity period with the
       Migration Directorate.
     </p>
     <p>
       The <a href="/tools#criminal-record" class="link">criminal record tool</a>
-      contains common certificate names by country. It is a reference, not an
-      official list of acceptable documents.
+      contains common certificate names by country. It is a reference, not an official
+      list of acceptable documents.
     </p>
   </li>
   <li>
@@ -85,9 +85,8 @@
     <p>
       Foreign documents for the TRP application must be translated into Russian
       and notarized in Russia. A translation bureau can usually arrange both
-      services. Prepare translations of every passport page, the criminal
-      record certificate, and any applicable birth, marriage, or divorce
-      certificates.
+      services. Prepare translations of every passport page, the criminal record
+      certificate, and any applicable birth, marriage, or divorce certificates.
     </p>
   </li>
   <li>
@@ -96,17 +95,17 @@
       An authorized medical organization in the region where you will apply must
       issue certificates covering prohibited substances, dangerous infectious
       diseases, and HIV. Bring your passport, visa, migration card, migration
-      registration, and a notarized passport translation. Results often take five
-      business days, and confirmatory testing can take longer.
+      registration, and a notarized passport translation. Results often take
+      five business days, and confirmatory testing can take longer.
     </p>
   </li>
   <li>
     <h3>Complete the form and pay the state duty</h3>
     <p>
       Complete the official TRP application, prepare two 3.5 × 4.5 cm
-      photographs (five for a stateless applicant), and keep the payment receipt.
-      The state duty was 1,920 rubles; it increased to 15,000 rubles after
-      26 July 2026. Confirm the current amount before payment.
+      photographs (five for a stateless applicant), and keep the payment
+      receipt. The state duty was 1,920 rubles; it increased to 15,000 rubles
+      after 26 July 2026. Confirm the current amount before payment.
     </p>
   </li>
   <li>
@@ -124,9 +123,10 @@
     <h3>Collect the decision and permit</h3>
     <p>
       The standard processing period is four months from acceptance. You will
-      receive a notification of the result and, if approved, a receipt explaining
-      your rights and responsibilities. For passport holders, the TRP is a stamp
-      in the passport; stateless applicants receive a separate document.
+      receive a notification of the result and, if approved, a receipt
+      explaining your rights and responsibilities. For passport holders, the TRP
+      is a stamp in the passport; stateless applicants receive a separate
+      document.
     </p>
   </li>
 </ol>

@@ -1,69 +1,6 @@
 <script lang="ts">
-  const eligibleCountries = [
-    "Australia",
-    "Austria",
-    "Albania",
-    "Andorra",
-    "Bahamas",
-    "Belgium",
-    "Bulgaria",
-    "Canada",
-    "Croatia",
-    "Cyprus",
-    "Czech Republic",
-    "Denmark",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Iceland",
-    "Ireland",
-    "Italy",
-    "Japan",
-    "Latvia",
-    "Liechtenstein",
-    "Lithuania",
-    "Luxembourg",
-    "Malta",
-    "Monaco",
-    "Montenegro",
-    "Netherlands",
-    "New Zealand",
-    "North Macedonia",
-    "Norway",
-    "Poland",
-    "Portugal",
-    "Romania",
-    "San Marino",
-    "Singapore",
-    "Slovakia",
-    "Slovenia",
-    "South Korea",
-    "Spain",
-    "Sweden",
-    "Switzerland",
-    "Taiwan",
-    "Ukraine",
-    "United Kingdom",
-    "United States",
-  ]
-
-  const certificateNames: Record<string, string> = {
-    Australia: "National Police Check",
-    Austria: "Strafregisterbescheinigung",
-    Canada: "Police Certificate / Criminal Record Check",
-    France: "Extrait du Casier Judiciaire, Bulletin no. 3",
-    Germany: "Führungszeugnis",
-    Italy: "Certificato Penale or Certificato dei Carichi Pendenti",
-    Japan: "Police Certificate",
-    Netherlands: "Verklaring Omtrent het Gedrag (VOG)",
-    Poland: "Informacja o osobie z Krajowego Rejestru Karnego",
-    Spain: "Certificado de Antecedentes Penales",
-    Switzerland: "Criminal Records Extract",
-    "United Kingdom": "Basic Disclosure",
-    "United States": "FBI Identification Record",
-  }
+  import { certificateNames } from "../../../lib/data/criminal-record-certificates"
+  import { eligibleCountries } from "../../../lib/data/decree-702-countries"
 
   let countryQuery = ""
   let certificateQuery = ""
@@ -98,10 +35,14 @@
     </p>
     <label>
       Search countries
-      <input bind:value={countryQuery} type="search" placeholder="Start typing a country" />
+      <input
+        bind:value={countryQuery}
+        type="search"
+        placeholder="Start typing a country"
+      />
     </label>
     <ul class="country-grid">
-      {#each eligibleCountries.filter((country) => matches(country, countryQuery)) as country}
+      {#each eligibleCountries.filter( (country) => matches(country, countryQuery), ) as country}
         <li>{country}</li>
       {/each}
     </ul>
@@ -123,7 +64,7 @@
       />
     </label>
     <dl class="certificate-list">
-      {#each Object.entries(certificateNames).filter(([country, name]) => matches(`${country} ${name}`, certificateQuery)) as [country, name]}
+      {#each Object.entries(certificateNames).filter( ([country, name]) => matches(`${country} ${name}`, certificateQuery), ) as [country, name]}
         <div>
           <dt>{country}</dt>
           <dd>{name}</dd>
@@ -140,9 +81,20 @@
       source and the current form version before using them.
     </p>
     <ul class="resource-list">
-      <li><a href="/pdf/notification-arrival-foreign-citizen-stateless-person-place-stay-effective-february-5-2025.pdf">Migration registration notification form ↗</a></li>
-      <li><a href="/pdf/trp-application-form.pdf">TRP application form ↗</a></li>
-      <li><a href="/pdf/trp-application-form-under-18.pdf">TRP application form for minors ↗</a></li>
+      <li>
+        <a
+          href="/pdf/notification-arrival-foreign-citizen-stateless-person-place-stay-effective-february-5-2025.pdf"
+          >Migration registration notification form ↗</a
+        >
+      </li>
+      <li>
+        <a href="/pdf/trp-application-form.pdf">TRP application form ↗</a>
+      </li>
+      <li>
+        <a href="/pdf/trp-application-form-under-18.pdf"
+          >TRP application form for minors ↗</a
+        >
+      </li>
     </ul>
   </section>
 </div>
