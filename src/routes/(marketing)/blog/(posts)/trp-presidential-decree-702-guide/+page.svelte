@@ -364,15 +364,21 @@
   >:
 </p>
 
-<p>
-  if the notary is proficient in the relevant languages:<br /> the notary certifies
-  the accuracy of a translation from one language to another
-</p>
+<div class="article-condition">
+  <span class="article-emphasis"
+    >if the notary is proficient in the relevant languages:</span
+  >
+  <br />
+  the notary certifies the accuracy of a translation from one language to another
+</div>
 
-<p>
-  if the notary is not proficient in the relevant languages:<br /> the notary certifies
-  the authenticity of a translator's signature
-</p>
+<div class="article-condition">
+  <span class="article-emphasis"
+    >if the notary is not proficient in the relevant languages:</span
+  >
+  <br />
+  the notary certifies the authenticity of a translator's signature
+</div>
 
 <p>
   According to recent regulations <sup>[12]</sup>, you likely cannot act as your
@@ -383,13 +389,12 @@
 
 <p>Documents requiring translation:</p>
 
-<p>Passport (all pages)</p>
-
-<p>Criminal record certificate</p>
-
-<p>Birth certificate (if applicable)</p>
-
-<p>Marriage/Divorce certificate (if applicable)</p>
+<ul class="article-list">
+  <li><span class="article-emphasis">Passport (all pages)</span></li>
+  <li><span class="article-emphasis">Criminal record certificate</span></li>
+  <li>Birth certificate (if applicable)</li>
+  <li>Marriage/Divorce certificate (if applicable)</li>
+</ul>
 
 <p>
   I recommend getting two sets of notarized passport translations: one with all
@@ -408,25 +413,30 @@
 
 <p>Three medical certificates are required <sup>[4, 14]</sup>:</p>
 
-<p>
-  if 13 years old or above:<br /> Medical report of absence of drugs and
-  psychotropic substances in the body<br /> (in Russian: Медицинское заключение об
-  отсутствии факта употребления иностранным гражданином или лицом без гражданства
-  наркотических средств или психотропных веществ без назначения врача либо новых
-  потенциально опасных психоактивных веществ и их метаболитов)
-</p>
-
-<p>
-  Medical report on the presence (absence) of infectious diseases that pose a
-  danger to others<br />(in Russian: Медицинское заключение наличии (отсутствии)
-  инфекционных заболеваний, представляющих опасность для окружающих)
-</p>
-
-<p>
-  Certificate of absence of human immunodeficiency virus (HIV) infection<br
-  />(in Russian: Сертификат об отсутствии вируса иммунодефицита человека
-  (ВИЧ-инфекции))
-</p>
+<ul class="article-list">
+  <li class="article-condition">
+    <span class="article-emphasis">if 13 years old or above:</span>
+    <br />
+    Medical report of absence of drugs and psychotropic substances in the body
+    <br />
+    (in Russian: Медицинское заключение об отсутствии факта употребления иностранным
+    гражданином или лицом без гражданства наркотических средств или психотропных
+    веществ без назначения врача либо новых потенциально опасных психоактивных веществ
+    и их метаболитов)
+  </li>
+  <li>
+    Medical report on the presence (absence) of infectious diseases that pose a
+    danger to others
+    <br />
+    (in Russian: Медицинское заключение наличии (отсутствии) инфекционных заболеваний,
+    представляющих опасность для окружающих)
+  </li>
+  <li>
+    Certificate of absence of human immunodeficiency virus (HIV) infection
+    <br />
+    (in Russian: Сертификат об отсутствии вируса иммунодефицита человека (ВИЧ-инфекции))
+  </li>
+</ul>
 
 <p>
   You must undergo the examination at a medical organization in your chosen
@@ -496,72 +506,68 @@
   application in person. Submission points vary by region but are typically:
 </p>
 
-<p>
-  Multifunctional Migration Center (in Russian: Многофункциональный миграционный
-  центр)
-</p>
-
-<p>
-  Migration Directorate of the Main Directorate of the Ministry of Internal
-  Affairs (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД))
-</p>
-
-<p>
-  Migration Directorate of a regional directorate of the Ministry of Internal
-  Affairs (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
-</p>
+<ul class="article-list">
+  <li>
+    Multifunctional Migration Center (in Russian: Многофункциональный
+    миграционный центр)
+  </li>
+  <li>
+    Migration Directorate of the Main Directorate of the Ministry of Internal
+    Affairs (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД))
+  </li>
+  <li>
+    Migration Directorate of a regional directorate of the Ministry of Internal
+    Affairs (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
+  </li>
+</ul>
 
 <p><b>Complete document checklist:</b></p>
 
-<p>Passport</p>
-
-<p>Visa</p>
-
-<p>Notarized translation of all pages of your passport</p>
-
-<p>Migration card</p>
-
-<p>Proof of migration registration</p>
-
-<p>
-  if >= 14 years old:<br /> Notarized translation of criminal record certificate
-</p>
-
-<p>
-  if >= 13 years old:<br /> Medical report of absence of drugs and psychotropic substances
-  in the body
-</p>
-
-<p>
-  Medical report on the presence (absence) of infectious diseases that pose a
-  danger to others
-</p>
-
-<p>Certificate of absence of human immunodeficiency virus (HIV) infection</p>
-
-<p>
-  if you are applying as a resident of a country (as shown in Fig. 2) that is
-  different from your citizenship:<br /> Residence permit or a similar document confirming
-  that the applicant resides in a country in the above-mentioned list
-</p>
-
-<p>
-  if you have changed your name:<br /> Notarized translation of the documents that
-  confirm such name changes
-</p>
-
-<p>
-  if you are bringing minors:<br /> Notarized translation of the birth certificate(s)
-</p>
-
-<p>State duty payment receipt</p>
-
-<p>Application form</p>
-
-<p>
-  2 black and white or color 3.5×4.5 cm photos (for stateless persons, 5 such
-  photos)
-</p>
+<ul class="article-list">
+  <li><span class="article-emphasis">Passport</span></li>
+  <li><span class="article-emphasis">Visa</span></li>
+  <li>Notarized translation of all pages of your passport</li>
+  <li>Migration card</li>
+  <li>Proof of migration registration</li>
+  <li class="article-condition">
+    <span class="article-emphasis">if &gt;= 14 years old:</span>
+    <br />Notarized translation of criminal record certificate
+  </li>
+  <li class="article-condition">
+    <span class="article-emphasis">if &gt;= 13 years old:</span>
+    <br />Medical report of absence of drugs and psychotropic substances in the
+    body
+  </li>
+  <li>
+    Medical report on the presence (absence) of infectious diseases that pose a
+    danger to others
+  </li>
+  <li>
+    Certificate of absence of human immunodeficiency virus (HIV) infection
+  </li>
+  <li class="article-condition">
+    <span class="article-emphasis"
+      >if you are applying as a resident of a country listed in the eligibility
+      tool that is different from your citizenship:</span
+    >
+    <br />Residence permit or a similar document confirming that the applicant
+    resides in a country in the above-mentioned list
+  </li>
+  <li class="article-condition">
+    <span class="article-emphasis">if you have changed your name:</span>
+    <br />Notarized translation of the documents that confirm such name changes
+  </li>
+  <li class="article-condition">
+    <span class="article-emphasis">if you are bringing minors:</span>
+    <br />Notarized translation of the birth certificate(s)
+  </li>
+  <li>State duty payment receipt</li>
+  <li>Application form</li>
+  <li>
+    2 black and white or color 3.5×4.5 cm photos (for stateless persons, 5 such
+    photos)
+  </li>
+</ul>
 
 <p>
   If your application is accepted, you will receive a certificate of acceptance
@@ -648,7 +654,7 @@
 
 <h2>References</h2>
 
-<div class="text-sm sm:text-base">
+<div class="article-references">
   [1] Federal Law of July 25, 2002 No. 115-FZ "On the Legal Status of Foreign
   Citizens in the Russian Federation" [2] Decree of the President of the Russian
   Federation of August 19, 2024, No. 702 "On the Provision of Humanitarian
@@ -733,6 +739,30 @@
 </p>
 
 <style>
+  :global(.article-emphasis) {
+    color: var(--pine);
+    font-weight: 700;
+  }
+
+  :global(.article-condition) {
+    margin: 1rem 0;
+    border-left: 3px solid var(--ochre);
+    padding-left: 1rem;
+  }
+
+  :global(.article-list) {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  :global(.article-list li + li) {
+    margin-top: 0.65rem;
+  }
+
+  :global(.article-references p) {
+    margin: 0.75rem 0;
+  }
+
   :global(.article-figure) {
     margin: 2rem 0;
     text-align: center;
