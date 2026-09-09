@@ -74,5 +74,13 @@
     })}
   </div>
   <h1>{currentPost.title}</h1>
+  {#if currentPost.coverImage}
+    <img
+      class="post-cover"
+      src={currentPost.coverImage}
+      alt=""
+      loading="eager"
+    />
+  {/if}
   {@render children?.()}
 </article>

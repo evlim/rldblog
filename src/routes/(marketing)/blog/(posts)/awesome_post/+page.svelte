@@ -10,8 +10,8 @@
 <h3>Context makes things simpler</h3>
 
 <p>
-  The goal of this journal is not to make broad claims about Russia. It is to
-  share specific observations and practical explanations that can help another
+  The goal of this blog is not to make broad claims about Russia. It is to share
+  specific observations and practical explanations that can help another
   foreigner make a confident next step.
 </p>
 
@@ -21,5 +21,5 @@
 
 <p>
   More notes on everyday life, legal essentials, and useful tools are available
-  in <a href="/blog" class="link">the journal</a>.
+  in <a href="/blog" class="link">the blog</a>.
 </p>

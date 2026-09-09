@@ -1,5 +1,5 @@
 export const blogInfo = {
-  name: "The Journal",
+  name: "The Blog",
   description: "Practical notes on everyday and legal life in Russia.",
 }
 
@@ -8,14 +8,23 @@ export type BlogPost = {
   date: string // date is a string 'YYYY-MM-DD'
   title: string
   description: string
+  coverImage?: string
   parsedDate?: Date // Optional because it's added dynamically
 }
 
 const blogPosts: BlogPost[] = [
   {
+    title: "Russian TRP Under Decree 702: The Complete Guide",
+    description:
+      "A walkthrough from an approved applicant covering the required documents and steps for a TRP in Russia under Presidential Decree 702.",
+    link: "/blog/trp-presidential-decree-702-guide",
+    date: "2026-07-29",
+    coverImage: "/images/702-guide-cover.webp",
+  },
+  {
     title: "A practical starting point for life in Russia",
     description:
-      "The ideas behind Russian Life Decoding and what you can expect from the journal.",
+      "The ideas behind Russian Life Decoding and what you can expect from the blog.",
     link: "/blog/how_we_built_our_41kb_saas_website",
     date: "2024-03-10",
   },

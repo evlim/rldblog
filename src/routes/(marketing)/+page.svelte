@@ -40,7 +40,7 @@
       </p>
       <div class="hero-actions">
         <a class="button button-primary" href="/blog"
-          >Read the journal <span>↗</span></a
+          >Read the blog <span>↗</span></a
         >
         <a class="text-link" href="#about">About the project <span>↓</span></a>
       </div>
@@ -82,8 +82,8 @@
 
 <section class="latest-section">
   <div class="section-heading">
-    <div class="section-label">From the journal</div>
-    <a class="text-link" href="/blog">View the journal <span>↗</span></a>
+    <div class="section-label">From the blog</div>
+    <a class="text-link" href="/blog">View the blog <span>↗</span></a>
   </div>
   <div class="latest-grid">
     {#each sortedBlogPosts.slice(0, 3) as post}

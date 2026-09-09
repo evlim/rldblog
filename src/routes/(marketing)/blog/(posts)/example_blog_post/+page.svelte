@@ -18,5 +18,5 @@
 </blockquote>
 
 <p>
-  Explore the latest articles in <a href="/blog" class="link">the journal</a>.
+  Explore the latest articles in <a href="/blog" class="link">the blog</a>.
 </p>
