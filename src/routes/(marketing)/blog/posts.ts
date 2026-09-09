@@ -25,22 +25,22 @@ const blogPosts: BlogPost[] = [
     title: "A practical starting point for life in Russia",
     description:
       "The ideas behind Russian Life Decoding and what you can expect from the blog.",
-    link: "/blog/how_we_built_our_41kb_saas_website",
-    date: "2024-03-10",
+    link: "/blog/a-practical-starting-point-for-life-in-russia",
+    date: "2026-07-27",
   },
   {
     title: "Small details, better context",
     description:
       "Why the everyday things are often the most useful things to understand.",
-    link: "/blog/awesome_post",
-    date: "2023-09-23",
+    link: "/blog/small-details-better-context",
+    date: "2026-07-25",
   },
   {
     title: "Starting with the basics",
     description:
       "A short introduction to finding your way around a new country.",
-    link: "/blog/example_blog_post",
-    date: "2023-03-13",
+    link: "/blog/starting-with-the-basics",
+    date: "2026-07-23",
   },
 ]
 
