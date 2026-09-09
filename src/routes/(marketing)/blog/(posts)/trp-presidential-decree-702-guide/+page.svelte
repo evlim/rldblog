@@ -81,7 +81,7 @@
   />
 
   <p>
-    Fig. 3. A flowchart of the document process for obtaining a TRP under
+    Fig. 3. The document flow for obtaining a TRP under
     Presidential Decree No. 702.
   </p>
 </div>
@@ -90,7 +90,7 @@
   Preparing the documents is the most challenging part of obtaining a TRP. This
   is due to varying validity periods for different documents, which must be
   carefully coordinated with other steps and travel plans. Fig. 3 shows an
-  optimized document flowchart based on my experience.
+  optimized document flow based on my experience.
 </p>
 
 <h3>1. Criminal Record Certificate (Apostilled or Legalized)</h3>
@@ -422,27 +422,26 @@
   <li>
     <span class="article-emphasis"
       >if 13 years old or above: Medical report of absence of drugs and
-      psychotropic substances in the body (in Russian: Медицинское заключение об
+      psychotropic substances in the body</span>
+      (in Russian: Медицинское заключение об
       отсутствии факта употребления иностранным гражданином или лицом без
       гражданства наркотических средств или психотропных веществ без назначения
       врача либо новых потенциально опасных психоактивных веществ и их
-      метаболитов)</span
-    >
+      метаболитов)
   </li>
   <li>
     <span class="article-emphasis"
       >Medical report on the presence (absence) of infectious diseases that pose
-      a danger to others (in Russian: Медицинское заключение наличии
+      a danger to others</span>
+      (in Russian: Медицинское заключение наличии
       (отсутствии) инфекционных заболеваний, представляющих опасность для
-      окружающих)</span
-    >
+      окружающих)
   </li>
   <li>
     <span class="article-emphasis"
-      >Certificate of absence of human immunodeficiency virus (HIV) infection
+      >Certificate of absence of human immunodeficiency virus (HIV) infection</span>
       (in Russian: Сертификат об отсутствии вируса иммунодефицита человека
-      (ВИЧ-инфекции))</span
-    >
+      (ВИЧ-инфекции))
   </li>
 </ul>
 
@@ -569,32 +568,26 @@
     >
   </li>
   <li>
-    <span class="article-emphasis"
-      >if you are applying as a resident of a country listed in the eligibility
+    if you are applying as a resident of a country listed in the eligibility
       tool that is different from your citizenship: Residence permit or a
       similar document confirming that the applicant resides in a country in the
-      above-mentioned list</span
-    >
+      above-mentioned list
   </li>
   <li>
-    <span class="article-emphasis"
-      >if you have changed your name: Notarized translation of the documents
-      that confirm such name changes</span
-    >
+   if you have changed your name: Notarized translation of the documents
+      that confirm such name changes
   </li>
   <li>
-    <span class="article-emphasis"
-      >if you are bringing minors: Notarized translation of the birth
-      certificate(s)</span
-    >
+if you are bringing minors: Notarized translation of the birth
+      certificate(s)
   </li>
   <li><span class="article-emphasis">State duty payment receipt</span></li>
   <li><span class="article-emphasis">Application form</span></li>
   <li>
     <span class="article-emphasis"
-      >2 black and white or color 3.5×4.5 cm photos (for stateless persons, 5
-      such photos)</span
-    >
+      >2 black and white or color 3.5×4.5 cm photos</span>
+      (for stateless persons, 5
+      such photos)
   </li>
 </ul>
 
