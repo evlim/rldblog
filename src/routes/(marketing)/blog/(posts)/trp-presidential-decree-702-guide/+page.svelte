@@ -81,8 +81,8 @@
   />
 
   <p>
-    Fig. 3. The document flow for obtaining a TRP under
-    Presidential Decree No. 702.
+    Fig. 3. The document flow for obtaining a TRP under Presidential Decree No.
+    702.
   </p>
 </div>
 
@@ -422,26 +422,26 @@
   <li>
     <span class="article-emphasis"
       >if 13 years old or above: Medical report of absence of drugs and
-      psychotropic substances in the body</span>
-      (in Russian: Медицинское заключение об
-      отсутствии факта употребления иностранным гражданином или лицом без
-      гражданства наркотических средств или психотропных веществ без назначения
-      врача либо новых потенциально опасных психоактивных веществ и их
-      метаболитов)
+      psychotropic substances in the body</span
+    >
+    (in Russian: Медицинское заключение об отсутствии факта употребления иностранным
+    гражданином или лицом без гражданства наркотических средств или психотропных
+    веществ без назначения врача либо новых потенциально опасных психоактивных веществ
+    и их метаболитов)
   </li>
   <li>
     <span class="article-emphasis"
       >Medical report on the presence (absence) of infectious diseases that pose
-      a danger to others</span>
-      (in Russian: Медицинское заключение наличии
-      (отсутствии) инфекционных заболеваний, представляющих опасность для
-      окружающих)
+      a danger to others</span
+    >
+    (in Russian: Медицинское заключение наличии (отсутствии) инфекционных заболеваний,
+    представляющих опасность для окружающих)
   </li>
   <li>
     <span class="article-emphasis"
-      >Certificate of absence of human immunodeficiency virus (HIV) infection</span>
-      (in Russian: Сертификат об отсутствии вируса иммунодефицита человека
-      (ВИЧ-инфекции))
+      >Certificate of absence of human immunodeficiency virus (HIV) infection</span
+    >
+    (in Russian: Сертификат об отсутствии вируса иммунодефицита человека (ВИЧ-инфекции))
   </li>
 </ul>
 
@@ -569,25 +569,25 @@
   </li>
   <li>
     if you are applying as a resident of a country listed in the eligibility
-      tool that is different from your citizenship: Residence permit or a
-      similar document confirming that the applicant resides in a country in the
-      above-mentioned list
+    tool that is different from your citizenship: Residence permit or a similar
+    document confirming that the applicant resides in a country in the
+    above-mentioned list
   </li>
   <li>
-   if you have changed your name: Notarized translation of the documents
-      that confirm such name changes
+    if you have changed your name: Notarized translation of the documents that
+    confirm such name changes
   </li>
   <li>
-if you are bringing minors: Notarized translation of the birth
-      certificate(s)
+    if you are bringing minors: Notarized translation of the birth
+    certificate(s)
   </li>
   <li><span class="article-emphasis">State duty payment receipt</span></li>
   <li><span class="article-emphasis">Application form</span></li>
   <li>
     <span class="article-emphasis"
-      >2 black and white or color 3.5×4.5 cm photos</span>
-      (for stateless persons, 5
-      such photos)
+      >2 black and white or color 3.5×4.5 cm photos</span
+    >
+    (for stateless persons, 5 such photos)
   </li>
 </ul>
 
