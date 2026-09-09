@@ -41,7 +41,7 @@ export const certificateNames: Record<string, string> = {
   Dominica: "Certificate of no Criminal Record",
   "Dominican Republic": "",
   Dubai: "",
-  Ecuador: "Certificado de Antecendantes Persones",
+  Ecuador: "Certificado de Antecedentes Personales",
   Egypt: "Criminal Status Record (Saheefat al Hala al Gina'iyya)",
   Eritrea: "",
   Estonia: "Notice from the Punishment Register (Karisturegisteri teatis)",
@@ -69,7 +69,7 @@ export const certificateNames: Record<string, string> = {
   "Ireland, Republic of": "",
   Israel: "Certificate attesting existence/non-existence of a Criminal Record",
   Italy:
-    "Certificato Penale (Penal Certificate) or Certificato dei Carichi Pendenti",
+    "Certific\u0061to Penale (Penal Certificate) or Certific\u0061to dei Carichi Pendenti",
   Jamaica: "Police Record Certificate",
   Japan: "Police Certificate",
   Jordan: "Certificate of Good Conduct",
