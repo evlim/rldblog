@@ -239,20 +239,21 @@
   registration of place of stay as "migration registration."
 </p>
 
-<ul>
+<ul class="article-list">
   <li>
-    If staying at a hotel: The hotel should handle this automatically <sup
-      >[8]</sup
-    >. You may ask for a notification slip printed out for the record.
+    <span class="article-emphasis"
+      >If staying at a hotel: The hotel should handle this automatically.</span
+    >
+    You may ask for a notification slip printed out for the record.
   </li>
-</ul>
-
-<ul>
   <li>
-    If staying at a private residence: The property owner must complete a
-    "Notification of Arrival of a Foreign Citizen or Stateless Person at the
-    Place of Stay" (Уведомление о прибытии иностранного гражданина или лица без
-    гражданства в место пребывания), as shown in Fig. 6.
+    <span class="article-emphasis"
+      >If staying at a private residence: The property owner must complete a
+      "Notification of Arrival of a Foreign Citizen or Stateless Person at the
+      Place of Stay"</span
+    >
+    (Уведомление о прибытии иностранного гражданина или лица без гражданства в место
+    пребывания), as shown in Fig. 6.
   </li>
 </ul>
 
@@ -277,19 +278,25 @@
 
 <p>The property owner can submit the notification at either:</p>
 
-<p>
-  Multifunctional Center (MFC; in Russian: Многофункциональный центр (МФЦ)),
-  branded "My Documents" (in Russian: Мои документы)
-</p>
-
-<p>or</p>
-
-<p>
-  Migration Directorate of the Main Directorate of the Ministry of Internal
-  Affairs (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД)) <br
-  />or <br />Migration Directorate of a regional directorate of the Ministry of
-  Internal Affairs (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
-</p>
+<ul class="article-list">
+  <li>
+    <span class="article-emphasis">Multifunctional Migration Center</span> (MFC;
+    in Russian: Многофункциональный центр (МФЦ)), branded "My Documents" (in Russian:
+    Мои документы)
+  </li>
+  <li>
+    <span class="article-emphasis"
+      >Migration Directorate of the Main Directorate of the Ministry of Internal
+      Affairs</span
+    > (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД))
+  </li>
+  <li>
+    <span class="article-emphasis"
+      >Migration Directorate of a regional directorate of the Ministry of
+      Internal Affairs</span
+    > (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
+  </li>
+</ul>
 
 <p>
   You can <a
@@ -364,21 +371,19 @@
   >:
 </p>
 
-<div class="article-condition">
+<p class="article-condition">
   <span class="article-emphasis"
-    >if the notary is proficient in the relevant languages:</span
+    >if the notary is proficient in the relevant languages: the notary certifies
+    the accuracy of a translation from one language to another</span
   >
-  <br />
-  the notary certifies the accuracy of a translation from one language to another
-</div>
+</p>
 
-<div class="article-condition">
+<p class="article-condition">
   <span class="article-emphasis"
-    >if the notary is not proficient in the relevant languages:</span
+    >if the notary is not proficient in the relevant languages: the notary
+    certifies the authenticity of a translator's signature</span
   >
-  <br />
-  the notary certifies the authenticity of a translator's signature
-</div>
+</p>
 
 <p>
   According to recent regulations <sup>[12]</sup>, you likely cannot act as your
@@ -414,27 +419,30 @@
 <p>Three medical certificates are required <sup>[4, 14]</sup>:</p>
 
 <ul class="article-list">
-  <li class="article-condition">
-    <span class="article-emphasis">if 13 years old or above:</span>
-    <br />
-    Medical report of absence of drugs and psychotropic substances in the body
-    <br />
-    (in Russian: Медицинское заключение об отсутствии факта употребления иностранным
-    гражданином или лицом без гражданства наркотических средств или психотропных
-    веществ без назначения врача либо новых потенциально опасных психоактивных веществ
-    и их метаболитов)
+  <li>
+    <span class="article-emphasis"
+      >if 13 years old or above: Medical report of absence of drugs and
+      psychotropic substances in the body (in Russian: Медицинское заключение об
+      отсутствии факта употребления иностранным гражданином или лицом без
+      гражданства наркотических средств или психотропных веществ без назначения
+      врача либо новых потенциально опасных психоактивных веществ и их
+      метаболитов)</span
+    >
   </li>
   <li>
-    Medical report on the presence (absence) of infectious diseases that pose a
-    danger to others
-    <br />
-    (in Russian: Медицинское заключение наличии (отсутствии) инфекционных заболеваний,
-    представляющих опасность для окружающих)
+    <span class="article-emphasis"
+      >Medical report on the presence (absence) of infectious diseases that pose
+      a danger to others (in Russian: Медицинское заключение наличии
+      (отсутствии) инфекционных заболеваний, представляющих опасность для
+      окружающих)</span
+    >
   </li>
   <li>
-    Certificate of absence of human immunodeficiency virus (HIV) infection
-    <br />
-    (in Russian: Сертификат об отсутствии вируса иммунодефицита человека (ВИЧ-инфекции))
+    <span class="article-emphasis"
+      >Certificate of absence of human immunodeficiency virus (HIV) infection
+      (in Russian: Сертификат об отсутствии вируса иммунодефицита человека
+      (ВИЧ-инфекции))</span
+    >
   </li>
 </ul>
 
@@ -508,16 +516,20 @@
 
 <ul class="article-list">
   <li>
-    Multifunctional Migration Center (in Russian: Многофункциональный
-    миграционный центр)
+    <span class="article-emphasis">Multifunctional Migration Center</span> (in Russian:
+    Многофункциональный миграционный центр)
   </li>
   <li>
-    Migration Directorate of the Main Directorate of the Ministry of Internal
-    Affairs (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД))
+    <span class="article-emphasis"
+      >Migration Directorate of the Main Directorate of the Ministry of Internal
+      Affairs</span
+    > (in Russian: Управление по вопросам миграции ГУ МВД (УВМ ГУ МВД))
   </li>
   <li>
-    Migration Directorate of a regional directorate of the Ministry of Internal
-    Affairs (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
+    <span class="article-emphasis"
+      >Migration Directorate of a regional directorate of the Ministry of
+      Internal Affairs</span
+    > (in Russian: Управление по вопросам миграции УМВД (УВМ УМВД))
   </li>
 </ul>
 
@@ -526,46 +538,63 @@
 <ul class="article-list">
   <li><span class="article-emphasis">Passport</span></li>
   <li><span class="article-emphasis">Visa</span></li>
-  <li>Notarized translation of all pages of your passport</li>
-  <li>Migration card</li>
-  <li>Proof of migration registration</li>
-  <li class="article-condition">
-    <span class="article-emphasis">if &gt;= 14 years old:</span>
-    <br />Notarized translation of criminal record certificate
+  <li>
+    <span class="article-emphasis"
+      >Notarized translation of all pages of your passport</span
+    >
   </li>
-  <li class="article-condition">
-    <span class="article-emphasis">if &gt;= 13 years old:</span>
-    <br />Medical report of absence of drugs and psychotropic substances in the
-    body
+  <li><span class="article-emphasis">Migration card</span></li>
+  <li><span class="article-emphasis">Proof of migration registration</span></li>
+  <li>
+    <span class="article-emphasis"
+      >if &gt;= 14 years old: Notarized translation of criminal record
+      certificate</span
+    >
   </li>
   <li>
-    Medical report on the presence (absence) of infectious diseases that pose a
-    danger to others
+    <span class="article-emphasis"
+      >if &gt;= 13 years old: Medical report of absence of drugs and
+      psychotropic substances in the body</span
+    >
   </li>
   <li>
-    Certificate of absence of human immunodeficiency virus (HIV) infection
+    <span class="article-emphasis"
+      >Medical report on the presence (absence) of infectious diseases that pose
+      a danger to others</span
+    >
   </li>
-  <li class="article-condition">
+  <li>
+    <span class="article-emphasis"
+      >Certificate of absence of human immunodeficiency virus (HIV) infection</span
+    >
+  </li>
+  <li>
     <span class="article-emphasis"
       >if you are applying as a resident of a country listed in the eligibility
-      tool that is different from your citizenship:</span
+      tool that is different from your citizenship: Residence permit or a
+      similar document confirming that the applicant resides in a country in the
+      above-mentioned list</span
     >
-    <br />Residence permit or a similar document confirming that the applicant
-    resides in a country in the above-mentioned list
   </li>
-  <li class="article-condition">
-    <span class="article-emphasis">if you have changed your name:</span>
-    <br />Notarized translation of the documents that confirm such name changes
-  </li>
-  <li class="article-condition">
-    <span class="article-emphasis">if you are bringing minors:</span>
-    <br />Notarized translation of the birth certificate(s)
-  </li>
-  <li>State duty payment receipt</li>
-  <li>Application form</li>
   <li>
-    2 black and white or color 3.5×4.5 cm photos (for stateless persons, 5 such
-    photos)
+    <span class="article-emphasis"
+      >if you have changed your name: Notarized translation of the documents
+      that confirm such name changes</span
+    >
+  </li>
+  <li>
+    <span class="article-emphasis"
+      >if you are bringing minors: Notarized translation of the birth
+      certificate(s)</span
+    >
+  </li>
+  <li><span class="article-emphasis">State duty payment receipt</span></li>
+  <li><span class="article-emphasis">Application form</span></li>
+  <li>
+    <span class="article-emphasis"
+      >2 black and white or color 3.5×4.5 cm photos (for stateless persons, 5
+      such photos)</span
+    >
   </li>
 </ul>
 
@@ -655,80 +684,116 @@
 <h2>References</h2>
 
 <div class="article-references">
-  [1] Federal Law of July 25, 2002 No. 115-FZ "On the Legal Status of Foreign
-  Citizens in the Russian Federation" [2] Decree of the President of the Russian
-  Federation of August 19, 2024, No. 702 "On the Provision of Humanitarian
-  Support to Persons Sharing Traditional Russian Spiritual and Moral Values" [3]
-  Order of the Government of the Russian Federation of September 17, 2024 No.
-  2560-r "On approval of the List of foreign states implementing policies that
-  impose destructive neoliberal ideological attitudes that contradict
-  traditional Russian spiritual and moral values" [4] Order of the Ministry of
-  Internal Affairs of Russia dated June 8, 2020, No. 407 "On Approval of the
-  Administrative Regulations of the Ministry of Internal Affairs of the Russian
-  Federation for the Provision of the Public Service for Issuing Temporary
-  Residence Permits in the Russian Federation to Foreign Citizens and Stateless
-  Persons, as well as the Marking and Forms for the Temporary Residence Permit
-  in the Russian Federation" [5] Hague Conference on Private International Law –
-  Conférence de La Haye de droit international privé. 12: Convention of 5
-  October 1961 Abolishing the Requirement of Legalisation for Foreign Public
-  Documents [6] Welcome to Russia. (2025) Which documents do you need tp apply
-  TRP – “РВП”? [7] Resolution of the Government of the Russian Federation of
-  August 16, 2004 No. 413 "On the Migration Card" [8] Federal Law of July 18,
-  2006 No. 109-FZ "On Migration Registration of Foreign Citizens and Stateless
-  Persons in the Russian Federation". [9] Order of the Ministry of Internal
-  Affairs of the Russian Federation dated December 10, 2020, No. 856 "On
-  Approval of the Administrative Regulations of the Ministry of Internal Affairs
-  of the Russian Federation for the Provision of the Public Service for the
-  Implementation of Migration Registration of Foreign Citizens and Stateless
-  Persons in the Russian Federation, Application Forms for a Foreign Citizen or
-  Stateless Person to Register at Their Place of Residence, Applications for
-  Deregistration of a Foreign Citizen or Stateless Person from Their Place of
-  Residence, Notifications of the Arrival of a Foreign Citizen or Stateless
-  Person at Their Place of Stay, Marks on the Registration (Deregistration) of a
-  Foreign Citizen or Stateless Person at Their Place of Residence, Marks
-  Confirming the Completion by the Host Party and the Foreign Citizen or
-  Stateless Person of the Actions Required for Their Registration at Their Place
-  of Stay, Affiliated, Including by the Multifunctional Center for the Provision
-  of State and Municipal Services" [10] Order of the Ministry of Internal
-  Affairs of Russia dated October 22, 2024 No. 628 "On Amending Order of the
-  Ministry of Internal Affairs of Russia dated December 10, 2020 No. 856 "On
-  Approval of the Administrative Regulations of the Ministry of Internal Affairs
-  of the Russian Federation for the Provision of the Public Service for the
-  Implementation of Migration Registration of Foreign Citizens and Stateless
-  Persons in the Russian Federation, Application Forms of a Foreign Citizen or
-  Stateless Person for Registration at the Place of Residence, Applications for
-  Deregistration of a Foreign Citizen or Stateless Person from the Place of
-  Residence, Notifications of the Arrival of a Foreign Citizen or Stateless
-  Person at the Place of Stay, Marks on Registration (Deregistration) of a
-  Foreign Citizen or Stateless Person at the Place of Residence, Marks
-  Confirming the Completion by the Host Party and the Foreign Citizen or
-  Stateless Person of the Actions Necessary for His/Her Registration at the
-  Place of Stay, Affiliated, Including, by the Multifunctional Center for the
-  Provision of State and Municipal Services" [11] Fundamentals of the
-  Legislation of the Russian Federation on Notaries of February 11, 1993 N
-  4462-I [12] Order of the Ministry of Justice of the Russian Federation of
-  August 30, 2017 No. 156 "On approval of the Regulations for the performance of
-  notarial acts by notaries, establishing the amount of information required by
-  a notary to perform notarial acts, and the method of recording it" [13]
-  Federal Law of July 25, 2002 No. 115-FZ "On the Legal Status of Foreign
-  Citizens in the Russian Federation" [14] Order of the Ministry of Health of
-  the Russian Federation dated November 19, 2021, No. 1079n "On Approval of the
-  Procedure for Conducting Medical Examinations, Including
-  Chemical-Toxicological Studies of the Presence of Narcotic Drugs or
-  Psychotropic Substances or New Potentially Dangerous Psychoactive Substances
-  and Their Metabolites in the Body of a Foreign Citizen or Stateless Person,
-  for the Presence or Absence of Infectious Diseases Posing a Danger to Others
-  and a Disease Caused by the Human Immunodeficiency Virus (HIV), the Form and
-  Validity Period of a Medical Certificate Confirming the Absence of
-  Unprescribed Use of Narcotic Drugs or Psychotropic Substances or New
-  Potentially Dangerous Psychoactive Substances, as well as the Form,
-  Description of the Form and Validity Period of a Medical Certificate
-  Confirming the Presence (Absence) of Infectious Diseases Posing a Danger to
-  Others" [15] Tax Code of the Russian Federation, Article 333.28. Amount of
-  state duty for actions related to the acquisition of citizenship of the
-  Russian Federation or renunciation of citizenship of the Russian Federation,
-  as well as entry into the Russian Federation or exit from the Russian
-  Federation
+  <p>
+    [1] Federal Law of July 25, 2002 No. 115-FZ "On the Legal Status of Foreign
+    Citizens in the Russian Federation"
+  </p>
+  <p>
+    [2] Decree of the President of the Russian Federation of August 19, 2024,
+    No. 702 "On the Provision of Humanitarian Support to Persons Sharing
+    Traditional Russian Spiritual and Moral Values"
+  </p>
+  <p>
+    [3] Order of the Government of the Russian Federation of September 17, 2024
+    No. 2560-r "On approval of the List of foreign states implementing policies
+    that impose destructive neoliberal ideological attitudes that contradict
+    traditional Russian spiritual and moral values"
+  </p>
+  <p>
+    [4] Order of the Ministry of Internal Affairs of Russia dated June 8, 2020,
+    No. 407 "On Approval of the Administrative Regulations of the Ministry of
+    Internal Affairs of the Russian Federation for the Provision of the Public
+    Service for Issuing Temporary Residence Permits in the Russian Federation to
+    Foreign Citizens and Stateless Persons, as well as the Marking and Forms for
+    the Temporary Residence Permit in the Russian Federation"
+  </p>
+  <p>
+    [5] Hague Conference on Private International Law – Conférence de La Haye de
+    droit international privé. 12: Convention of 5 October 1961 Abolishing the
+    Requirement of Legalisation for Foreign Public Documents
+  </p>
+  <p>
+    [6] Welcome to Russia. (2025) Which documents do you need tp apply TRP –
+    “РВП”?
+  </p>
+  <p>
+    [7] Resolution of the Government of the Russian Federation of August 16,
+    2004 No. 413 "On the Migration Card"
+  </p>
+  <p>
+    [8] Federal Law of July 18, 2006 No. 109-FZ "On Migration Registration of
+    Foreign Citizens and Stateless Persons in the Russian Federation".
+  </p>
+  <p>
+    [9] Order of the Ministry of Internal Affairs of the Russian Federation
+    dated December 10, 2020, No. 856 "On Approval of the Administrative
+    Regulations of the Ministry of Internal Affairs of the Russian Federation
+    for the Provision of the Public Service for the Implementation of Migration
+    Registration of Foreign Citizens and Stateless Persons in the Russian
+    Federation, Application Forms for a Foreign Citizen or Stateless Person to
+    Register at Their Place of Residence, Applications for Deregistration of a
+    Foreign Citizen or Stateless Person from Their Place of Residence,
+    Notifications of the Arrival of a Foreign Citizen or Stateless Person at
+    Their Place of Stay, Marks on the Registration (Deregistration) of a Foreign
+    Citizen or Stateless Person at Their Place of Residence, Marks Confirming
+    the Completion by the Host Party and the Foreign Citizen or Stateless Person
+    of the Actions Required for Their Registration at Their Place of Stay,
+    Affiliated, Including by the Multifunctional Center for the Provision of
+    State and Municipal Services"
+  </p>
+  <p>
+    [10] Order of the Ministry of Internal Affairs of Russia dated October 22,
+    2024 No. 628 "On Amending Order of the Ministry of Internal Affairs of
+    Russia dated December 10, 2020 No. 856 "On Approval of the Administrative
+    Regulations of the Ministry of Internal Affairs of the Russian Federation
+    for the Provision of the Public Service for the Implementation of Migration
+    Registration of Foreign Citizens and Stateless Persons in the Russian
+    Federation, Application Forms of a Foreign Citizen or Stateless Person for
+    Registration at the Place of Residence, Applications for Deregistration of a
+    Foreign Citizen or Stateless Person from the Place of Residence,
+    Notifications of the Arrival of a Foreign Citizen or Stateless Person at the
+    Place of Stay, Marks on Registration (Deregistration) of a Foreign Citizen
+    or Stateless Person at the Place of Residence, Marks Confirming the
+    Completion by the Host Party and the Foreign Citizen or Stateless Person of
+    the Actions Necessary for His/Her Registration at the Place of Stay,
+    Affiliated, Including, by the Multifunctional Center for the Provision of
+    State and Municipal Services"
+  </p>
+  <p>
+    [11] Fundamentals of the Legislation of the Russian Federation on Notaries
+    of February 11, 1993 N 4462-I
+  </p>
+  <p>
+    [12] Order of the Ministry of Justice of the Russian Federation of August
+    30, 2017 No. 156 "On approval of the Regulations for the performance of
+    notarial acts by notaries, establishing the amount of information required
+    by a notary to perform notarial acts, and the method of recording it"
+  </p>
+  <p>
+    [13] Federal Law of July 25, 2002 No. 115-FZ "On the Legal Status of Foreign
+    Citizens in the Russian Federation"
+  </p>
+  <p>
+    [14] Order of the Ministry of Health of the Russian Federation dated
+    November 19, 2021, No. 1079n "On Approval of the Procedure for Conducting
+    Medical Examinations, Including Chemical-Toxicological Studies of the
+    Presence of Narcotic Drugs or Psychotropic Substances or New Potentially
+    Dangerous Psychoactive Substances and Their Metabolites in the Body of a
+    Foreign Citizen or Stateless Person, for the Presence or Absence of
+    Infectious Diseases Posing a Danger to Others and a Disease Caused by the
+    Human Immunodeficiency Virus (HIV), the Form and Validity Period of a
+    Medical Certificate Confirming the Absence of Unprescribed Use of Narcotic
+    Drugs or Psychotropic Substances or New Potentially Dangerous Psychoactive
+    Substances, as well as the Form, Description of the Form and Validity Period
+    of a Medical Certificate Confirming the Presence (Absence) of Infectious
+    Diseases Posing a Danger to Others"
+  </p>
+  <p>
+    [15] Tax Code of the Russian Federation, Article 333.28. Amount of state
+    duty for actions related to the acquisition of citizenship of the Russian
+    Federation or renunciation of citizenship of the Russian Federation, as well
+    as entry into the Russian Federation or exit from the Russian Federation
+  </p>
 </div>
 
 <p>
@@ -746,8 +811,6 @@
 
   :global(.article-condition) {
     margin: 1rem 0;
-    border-left: 3px solid var(--ochre);
-    padding-left: 1rem;
   }
 
   :global(.article-list) {

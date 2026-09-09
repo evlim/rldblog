@@ -8,6 +8,7 @@ export type BlogPost = {
   date: string // date is a string 'YYYY-MM-DD'
   title: string
   description: string
+  coverImage?: string
   parsedDate?: Date // Optional because it's added dynamically
 }
 
@@ -17,7 +18,8 @@ const blogPosts: BlogPost[] = [
     description:
       "A walkthrough from an approved applicant covering the required documents and steps for a TRP in Russia under Presidential Decree 702.",
     link: "/blog/trp-presidential-decree-702-guide",
-    date: "2026-09-08",
+    date: "2026-07-29",
+    coverImage: "/images/702-guide-cover.webp",
   },
   {
     title: "A practical starting point for life in Russia",
