@@ -83,4 +83,17 @@
     />
   {/if}
   {@render children?.()}
+  <section class="author-block" aria-label="About the author">
+    <img
+      class="author-portrait"
+      src="/images/portrait.webp"
+      alt="Evan Lim"
+      loading="lazy"
+    />
+    <div>
+      <h2>Evan Lim</h2>
+      <p>Founder of Russian Life Decoding</p>
+      <p>University lecturer and researcher in Computer Science and Law</p>
+    </div>
+  </section>
 </article>
