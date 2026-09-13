@@ -30,6 +30,6 @@
     <span class="wordmark-mark">R</span>
     <span>{WebsiteName}</span>
   </a>
-  <p>Notes on everyday and legal life in Russia.</p>
+  <p>Practical guidance on life, law, and technology in Russia.</p>
   <span class="footer-year">© {new Date().getFullYear()}</span>
 </footer>

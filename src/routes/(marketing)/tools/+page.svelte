@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>Russia immigration tools | Russian Life Decoding</title>
+  <title>Russia immigration tools | Russia Decoding</title>
   <meta
     name="description"
     content="Check Decree 702 eligibility, find common criminal record certificate names, and access TRP document resources."
@@ -20,7 +20,7 @@
 <div class="blog-index">
   <div class="blog-heading">
     <div>
-      <p class="eyebrow">Russian Life Decoding</p>
+      <p class="eyebrow">Russia Decoding</p>
       <h1>Useful tools</h1>
       <p>Focused references for planning a TRP application under Decree 702.</p>
     </div>

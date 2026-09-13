@@ -2,14 +2,14 @@
 
 ## Project
 
-This repository is a SvelteKit static publication for Russian Life Decoding.
+This repository is a SvelteKit static publication for Russia Decoding.
 Marketing routes live under `src/routes/(marketing)`, blog post content lives in
 `src/routes/(marketing)/blog/(posts)`, and shared visual styles are in
 `src/app.css`.
 
 ## Conventions
 
-- Keep the Russian Life Decoding visual language in `src/app.css`; do not copy
+- Keep the Russia Decoding visual language in `src/app.css`; do not copy
   layouts or styles from the legacy `rld-blog` project.
 - Add blog metadata to `src/routes/(marketing)/blog/posts.ts` when creating a
   post. The metadata link must match the post route.

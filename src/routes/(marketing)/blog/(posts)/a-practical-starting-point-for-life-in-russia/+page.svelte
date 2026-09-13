@@ -1,9 +1,9 @@
 <p class="lead">A practical starting point for understanding life in Russia.</p>
 
 <p>
-  Russian Life Decoding is a growing collection of notes for foreigners living
-  in Russia. It brings together practical context, clear explanations, and
-  useful tools for the questions that come up every day.
+  Russia Decoding is a growing collection of notes for foreigners living in
+  Russia. It brings together practical context, clear explanations, and useful
+  tools for the questions that come up every day.
 </p>
 
 <ul>

@@ -10,7 +10,7 @@
 <div class="blog-index">
   <div class="blog-heading">
     <div>
-      <p class="eyebrow">Russian Life Decoding</p>
+      <p class="eyebrow">Russia Decoding</p>
       <h1>{blogInfo.name}</h1>
       <p>{blogInfo.description}</p>
     </div>

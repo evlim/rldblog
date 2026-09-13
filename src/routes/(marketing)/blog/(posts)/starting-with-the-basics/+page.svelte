@@ -9,8 +9,8 @@
 <h3>Useful information should be approachable</h3>
 
 <p>
-  Russian Life Decoding exists to make complicated topics easier to navigate,
-  whether they concern an ordinary weekday or an important legal process.
+  Russia Decoding exists to make complicated topics easier to navigate, whether
+  they concern an ordinary weekday or an important legal process.
 </p>
 
 <blockquote>

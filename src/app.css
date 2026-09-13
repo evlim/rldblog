@@ -384,6 +384,32 @@ h3 {
   max-width: 720px;
 }
 
+.post-byline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: -0.5rem 0 2rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.post-byline .post-byline-portrait {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.post-byline-name {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .post-cover {
   display: block;
   width: 100%;
