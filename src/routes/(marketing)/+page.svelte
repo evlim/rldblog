@@ -1,42 +1,65 @@
 <script lang="ts">
   import { sortedBlogPosts } from "./blog/posts"
-  import { WebsiteDescription, WebsiteName } from "../../config"
+  import { WebsiteBaseUrl, WebsiteDescription, WebsiteName } from "../../config"
 
   const topics = [
     {
       number: "01",
       title: "Everyday life",
       description:
-        "Practical context for settling in, getting around, and feeling at home.",
+        "Practical context for living in Russia, visiting, and staying connected from abroad.",
     },
     {
       number: "02",
       title: "Legal essentials",
       description:
-        "Clear explanations of the rules, documents, and processes that matter.",
+        "Clear explanations of the rules, documents, and processes that shape life and work in Russia.",
     },
     {
       number: "03",
       title: "Useful tools",
       description:
-        "Small, focused resources that make navigating life in Russia easier.",
+        "Focused resources for handling practical tasks, services, and decisions connected to Russia.",
     },
   ]
 </script>
 
 <svelte:head>
-  <title>{WebsiteName} — Understand life in Russia</title>
+  <title>{WebsiteName} — Understand Russia from anywhere</title>
   <meta name="description" content={WebsiteDescription} />
+  <meta
+    property="og:title"
+    content={`${WebsiteName} — Understand Russia from anywhere`}
+  />
+  <meta property="og:description" content={WebsiteDescription} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={WebsiteBaseUrl} />
+  <meta
+    property="og:image"
+    content={`${WebsiteBaseUrl}/images/landing-page-preview.png`}
+  />
+  <meta property="og:image:alt" content="Russia Decoding homepage" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content={`${WebsiteName} — Understand Russia from anywhere`}
+  />
+  <meta name="twitter:description" content={WebsiteDescription} />
+  <meta
+    name="twitter:image"
+    content={`${WebsiteBaseUrl}/images/landing-page-preview.png`}
+  />
 </svelte:head>
 
 <section class="hero-shell">
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">A practical guide for life in Russia</p>
-      <h1>Make sense of <em>life in Russia.</em></h1>
+      <p class="eyebrow">Practical guidance for understanding Russia</p>
+      <h1>Make sense of <em>Russia.</em></h1>
       <p class="hero-description">
-        Russian Life Decoding breaks down everyday and legal topics into clear,
-        useful guidance for foreigners building a life here.
+        Russia Decoding breaks down everyday life, legal topics, technology, and
+        practical services connected to Russia into clear, useful guidance for
+        people at home or abroad.
       </p>
       <div class="hero-actions">
         <a class="button button-primary" href="/blog"
@@ -47,7 +70,7 @@
     </div>
     <div class="hero-mark" aria-hidden="true">
       <div class="mark-ring"></div>
-      <div class="mark-label">RLD<br /><span>01</span></div>
+      <div class="mark-label">RD<br /><span>01</span></div>
     </div>
   </div>
 </section>
@@ -57,9 +80,10 @@
   <div class="intro-content">
     <h2>Clarity over assumptions.</h2>
     <p>
-      Moving through a new country comes with a thousand small questions. This
-      is a growing collection of observations, explainers, and tools designed to
-      replace guesswork with a better understanding of how things work.
+      Understanding another country comes with a thousand small questions. This
+      is a growing collection of observations, explainers, and tools for people
+      living in Russia, working with Russian organisations, or trying to make
+      sense of what happens here from abroad.
     </p>
   </div>
 </section>

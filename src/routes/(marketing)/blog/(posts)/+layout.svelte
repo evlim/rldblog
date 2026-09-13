@@ -2,7 +2,7 @@
   import { page } from "$app/stores"
   import { error } from "@sveltejs/kit"
   import { sortedBlogPosts, type BlogPost } from "./../posts"
-  import { WebsiteName } from "../../../../config"
+  import { WebsiteBaseUrl, WebsiteName } from "../../../../config"
   interface Props {
     children?: import("svelte").Snippet
   }
@@ -39,7 +39,10 @@
     }/script>`,
   )
 
-  let pageUrl = $derived($page.url.origin + $page.url.pathname)
+  let pageUrl = $derived(WebsiteBaseUrl + currentPost.link)
+  let socialImage = $derived(
+    currentPost.coverImage ? WebsiteBaseUrl + currentPost.coverImage : null,
+  )
 </script>
 
 <svelte:head>
@@ -51,15 +54,27 @@
   <meta property="og:description" content={currentPost.description} />
   <meta property="og:site_name" content={WebsiteName} />
   <meta property="og:url" content={pageUrl} />
-  <!-- <meta property="og:image" content="https://samplesite.com/image.jpg"> -->
+  {#if socialImage}
+    <meta property="og:image" content={socialImage} />
+    <meta
+      property="og:image:alt"
+      content={currentPost.coverImageAlt ?? currentPost.title}
+    />
+    <meta property="og:image:type" content="image/webp" />
+  {/if}
 
   <!-- Twitter -->
   <!-- “summary”, “summary_large_image”, “app”, or “player” -->
-  <meta name="twitter:card" content="summary" />
+  <meta
+    name="twitter:card"
+    content={socialImage ? "summary_large_image" : "summary"}
+  />
   <meta name="twitter:title" content={currentPost.title} />
   <meta name="twitter:description" content={currentPost.description} />
   <!-- <meta name="twitter:site" content="@samplesite"> -->
-  <!-- <meta name="twitter:image" content="https://samplesite.com/image.jpg"> -->
+  {#if socialImage}
+    <meta name="twitter:image" content={socialImage} />
+  {/if}
 
   <!-- eslint-disable-next-line svelte/no-at-html-tags -->
   {@html jsonldScript}
@@ -74,11 +89,27 @@
     })}
   </div>
   <h1>{currentPost.title}</h1>
+  <div class="post-byline" aria-label="Author and estimated reading time">
+    <img
+      class="post-byline-portrait"
+      src="/images/portrait.webp"
+      alt=""
+      width="36"
+      height="36"
+    />
+    <span class="post-byline-name">Evan Lim</span>
+    <span class="post-byline-separator" aria-hidden="true">·</span>
+    <span
+      aria-label={`Estimated reading time: ${currentPost.readingMinutes} minutes`}
+    >
+      {currentPost.readingMinutes} min read
+    </span>
+  </div>
   {#if currentPost.coverImage}
     <img
       class="post-cover"
       src={currentPost.coverImage}
-      alt=""
+      alt={currentPost.coverImageAlt ?? ""}
       loading="eager"
     />
   {/if}
@@ -92,7 +123,7 @@
     />
     <div>
       <h2>Evan Lim</h2>
-      <p>Founder of Russian Life Decoding</p>
+      <p>Founder of Russia Decoding</p>
       <p>University lecturer and researcher in Computer Science and Law</p>
     </div>
   </section>
